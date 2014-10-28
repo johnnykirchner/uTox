@@ -201,6 +201,10 @@ static void contextmenu_edit_onselect(uint8_t i)
     case 4:
         edit_char(KEY('A'), 1, 4);
         break;
+    case 5: 
+    	edit_char(KEY_DEL, 1, 1);
+    	break;
+        
     }
 }
 
